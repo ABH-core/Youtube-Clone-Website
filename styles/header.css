@@ -87,6 +87,7 @@
 .right-section .youtube-apps-container .tooltip,
 .right-section .notifications-container .tooltip {
   font-family: Roboto, Arial;
+  cursor:pointer;
   position: absolute;
   bottom: -42px;
   background-color: rgb(112, 112, 112);
