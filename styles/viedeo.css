@@ -2,8 +2,33 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   
-  column-gap: 16px;
+  column-gap: 10px;
   row-gap: 40px;
+  margin-right: 15px;
+}
+
+@media (min-width: 1250px) {
+  .Viedeo-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1250px) {
+  .Viedeo-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .Viedeo-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 550px) {
+  .Viedeo-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .thumbnail {
